@@ -5,7 +5,7 @@ Módulo para meio de pagamento Pagarme Magento versão 2.
 ### Instalar usando o [composer](https://getcomposer.org/):
 
 1. Entre na pasta raíz da sua instalação
-2. Digite o seguinte comando[
+2. Digite o seguinte comando:
     ```bash
     composer require roeder/pagarme
     ```
@@ -20,8 +20,8 @@ Módulo para meio de pagamento Pagarme Magento versão 2.
 
 
 * Criar a seguinte estrutura de pastas app/code/Roeder/Pagarme
-* ixe a ultima versão [aqui](https://codeload.github.com/brunoroeder/magento2-Pagarme/zip/master)
-* compacte o arquivo baixado e copie as pastas para dentro do diretório criado no inicio
+* Baixe a ultima versão [aqui](https://codeload.github.com/brunoroeder/magento2-Pagarme/zip/master)
+* Descompacte o arquivo baixado e copie as pastas para dentro do diretório criado no início
 * Digite os seguintes comandos, no terminal, para habilitar o módulo:
     ```bash
     php bin/magento module:enable Roeder_Pagarme --clear-static-content
