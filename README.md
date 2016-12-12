@@ -23,6 +23,7 @@ Módulo para meio de pagamento Pagarme Magento versão 2.
 * Baixe a ultima versão [aqui](https://codeload.github.com/brunoroeder/magento2-Pagarme/zip/master)
 * Descompacte o arquivo baixado e copie as pastas para dentro do diretório criado no início
 * Digite os seguintes comandos, no terminal, para habilitar o módulo:
+
     ```bash
     php bin/magento module:enable Roeder_Pagarme --clear-static-content
     php bin/magento setup:upgrade
