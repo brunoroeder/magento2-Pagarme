@@ -1,4 +1,4 @@
-#Magento Extension for Pagar.me Payment Gateway (Magento CE 2+)
+#Extensão Pagarme para Magento versão 2 (Magento CE 2+)
 Módulo para meio de pagamento Pagarme Magento versão 2. 
 
 ## Instalação
