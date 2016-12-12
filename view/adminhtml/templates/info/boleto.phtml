@@ -1,0 +1,20 @@
+<dl class="payment-method">
+    <dt class="title"><strong><?php echo $block->escapeHtml($block->getMethod()->getTitle()) ?></strong></dt>
+<?php if ($block->getPagarmeTransactionId()) : ?>
+     <dd class="content">
+        <?php echo __('Pagarme Transaction Id:') ?> <?php echo $block->getPagarmeTransactionId(); ?>
+     </dd>
+
+      <dd class="content">
+        <?php echo __('Boleto expiration date:') ?> <?php echo $block->getBoletoExpirationDate(); ?>
+      </dd>
+
+      <dd class="content">
+      <button id="pagarme-boleto-button-print" type="button" class="action" title="Print Pagarme Boleto" onclick="window.open('<?php echo $block->getBoletoPrintUrl() ?>', '_blank')"><?php echo __('Re-print your Boleto') ?></button>
+      </dd>
+
+      <dd class="content">
+        <?php echo __('Boleto barcode:') ?> <?php echo $block->getBoletoBarCode(); ?>
+      </dd>
+<?php endif; ?>
+</dl>
