@@ -33,4 +33,4 @@ Módulo para meio de pagamento Pagarme Magento versão 2.
 OBSERVAÇÕES
 ===========
 
-**Este módulo atualmente suporta apenas BOLETO** - Atualmente está em desenvolvimento e suporta apenas o meio de pagamento Boleto, seja livre para conribuir se desejar continuar o desenvolvimento para Cartão de Crédito.
+**Este módulo atualmente suporta apenas BOLETO** - Atualmente encontra-se em desenvolvimento e suporta apenas o meio de pagamento Boleto, seja livre para contribuir e se desejar continuar o desenvolvimento para Cartão de Crédito e/ou outras funcionalidades.
