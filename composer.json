@@ -1,6 +1,6 @@
 {
     "name": "roeder/pagarme",
-    "description": "Pagarme Boleto module",
+    "description": "Pagarme module for Magento 2",
     "version": "1.0.1",
     "type": "magento2-module",
     "license": [
