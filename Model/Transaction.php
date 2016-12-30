@@ -27,7 +27,6 @@ class Transaction extends \Magento\Framework\Model\AbstractModel
     private $_capture = false;
     private $_metadata = [];
     private $_boletoExpirationDate;
-    /** @var  Trezo_Pagarme_Model_Transaction_Customer */
     private $_customer;
 
     /**
