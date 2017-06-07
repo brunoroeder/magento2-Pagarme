@@ -1,4 +1,4 @@
-#Extensão Pagarme para Magento 2 (Magento CE 2+)
+# Extensão Pagarme para Magento 2 (Magento CE 2+)
 Módulo para meio de pagamento Pagarme Magento versão 2. 
 
 ## Instalação
@@ -9,9 +9,11 @@ Módulo para meio de pagamento Pagarme Magento versão 2.
     ```bash
     composer require roeder/pagarme
     ```
-    
-3. Digite os seguintes comandos, no terminal, para habilitar o módulo:
-
+3. Para baixar a biblioteca do Pagarme:
+    ```bash
+    composer require pagarme/pagarme-php:2.0
+    ```
+4. Digite os seguintes comandos, no terminal, para habilitar o módulo:
     ```bash
     php bin/magento module:enable Roeder_Pagarme --clear-static-content
     php bin/magento setup:upgrade
